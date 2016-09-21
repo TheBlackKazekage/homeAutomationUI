@@ -1,0 +1,33 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+nav {
+    border-bottom: 1px solid grey;
+}
+
+.maincontent {
+    height: 100%;
+    position: relative;
+} 
+*  {
+    font-family:  Arial, sans-serif;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0px !important;
+}
+.page-wrap {
+    min-height: 100%;
+    margin-bottom:-142px;
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+footer, .page-wrap:after {
+    height: 142px;
+}
+footer {
+    background-color: #999;
+}  

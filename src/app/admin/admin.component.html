@@ -1,0 +1,20 @@
+<h2>Administration</h2>
+
+<div class="row">
+    <table>
+        <thead>
+            <th>Device NodeID</th>
+            <th>Device Name</th>
+            <th>Device location</th>
+             <th>Device Type</th>
+              <th>Device info</th>
+        </thead>
+<tr *ngFor="let device of devices">
+<td>{{device.nodeid}} {{device.ready}}</td>
+<td>{{device.name}}</td>
+<td>{{device.loc}}</td>
+<td>{{device.type}}</td>
+<td>{{device.manufacturer}} {{device.product}}  ({{device.producttype}} {{device.productid}})  ({{device.manufacturerid}})</td>
+    </tr>
+
+</table>
