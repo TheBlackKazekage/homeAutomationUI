@@ -1,4 +1,10 @@
-# MigrationProject
+# Open Source Home Automation Packge
+
+This is an open source implementation of several home automation needs. The geneeral idea is I wanted to take a Raspberry PI and control my house. I did NOT want to use IFTTT or other similar services, I wanted to roll my own. 
+
+There are several related repos
+[https://github.com/chadmott/homeAutomationUI](Ui Layer)
+
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.15.
 
